@@ -12,7 +12,7 @@ const Promotion = () => {
   })
 
   const targetDate = new Date()
-  targetDate.setDate(targetDate.getDate() + 3)
+  targetDate.setDate(targetDate.getDate() + 727)
 
   useEffect(() => {
     const timerInterval = setInterval(() => {
@@ -40,11 +40,13 @@ const Promotion = () => {
   return (
     <section className={classes.promotion}>
       <div className={classes.textBox}>
-        <h3 className={classes.title}>Deals of the Month</h3>
+        <h3 className={classes.title}>🎵 Muse API releases soon...</h3>
         <p>
-          Get ready for a shopping experience like never before with our Deals of the Month! Every
+          {/* Get ready for a shopping experience like never before with our Deals of the Month! Every
           purchase comes with exclusive perks and offers, making this month a celebration of savvy
-          choices and amazing deals. Don't miss out! 🎁🛒
+          choices and amazing deals. Don't miss out! 🎁🛒 */}
+          ⭐ Featuring more profile stats, a supporter system, and much more. Muse API is coming
+          soon!⭐ (copium)
         </p>
 
         <ul className={classes.stats}>

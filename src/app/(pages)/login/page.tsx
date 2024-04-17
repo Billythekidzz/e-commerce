@@ -21,10 +21,10 @@ export default async function Login() {
       <div className={classes.heroImg}>
         <Link href="/">
           <Image
-            src="/logo-black.svg"
+            src="/MuseSwiprLibraryLogo.svg"
             alt="logo"
-            width={250}
-            height={23}
+            width={50}
+            height={50}
             className={classes.logo}
           />
         </Link>
@@ -35,7 +35,7 @@ export default async function Login() {
           <RenderParams className={classes.params} />
           <div className={classes.formTitle}>
             <h3>Welcome</h3>
-            <Image src="/assets/icons/hand.png" alt="hand" width={30} height={30} />
+            <Image src="/assets/icons/wave.svg" alt="wave" width={30} height={30} />
           </div>
           <p>Please login here</p>
 
